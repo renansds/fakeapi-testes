@@ -1,11 +1,78 @@
 {
-  "posts": [
+  "customers": [
     {
-      "id": 1,
-      "title": "hello"
+      "customerId": "27777800051",
+      "tier": {
+        "id": "XODO_A"
+      },
+      "defaulting": true,
+      "wallet": {
+        "balance": 56.98
+      },
+      "target": 20,
+      "availableBalance": 0
+    }, 
+    {
+      "customerId": "39925135052",
+      "tier": {
+        "id": "XODO_A"
+      },
+      "defaulting": true,
+      "wallet": {
+        "balance": 108.98
+      },
+      "target": 15,
+      "availableBalance": 0
+    }, 
+    {
+      "customerId": "51778833020",
+      "tier": {
+        "id": "XODO_A"
+      },
+      "defaulting": true,
+      "wallet": {
+        "balance": 97.50
+      },
+      "target": 15,
+      "availableBalance": 0
+    },
+    {
+      "customerId": "29011949072",
+      "tier": {
+        "id": "XODO_A"
+      },
+      "defaulting": true,
+      "wallet": {
+        "balance": 27.00
+      },
+      "target": 15,
+      "availableBalance": 0
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "reserves": [
+    {
+      "customerId": "27777800051",
+      "reservaId": "27777800051_2020-01-01",
+      "value": 56.98,
+      "reservaTotal": 56.98
+    }, 
+    {
+      "customerId": "29011949072", 
+      "reservaId": "29011949072_2020-01-01",
+      "value": 27.00,
+      "reservaTotal": 27.00
+    }, 
+    {
+      "customerId": "39925135052",
+      "reservaId": "39925135052_2020-01-01",
+      "value": 108.98,
+      "reservaTotal": 108.98
+    }, 
+    {
+      "customerId": "51778833020",
+      "reservaId": "51778833020_2020-01-01",
+      "value": 97.50,
+      "reservaTotal": 97.50
+    }
+  ]
 }
