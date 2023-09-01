@@ -74,5 +74,13 @@
       "value": 97.50,
       "reservaTotal": 97.50
     }
+  ], 
+  "cancelReserves": [
+    {
+      "customerId": "27777800051",
+      "reservaId": "27777800051_2020-01-01",
+      "value": 56.98,
+      "reservaTotal": 56.98
+    }
   ]
 }
